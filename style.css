@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+
+}
+
+#main {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+#back {
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+}
+
+#top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+#workingarea {
+    margin: 0 auto; /*auto for leftright dono side se barabar*/
+    width: 80%;
+    height: 100vh;
+    max-width: 1920px;
+    border: 1px solid red;
+}
+
+#nav{
+    width: 100%;
+    padding: 30px 0;
+}
+
+#nav img{
+    height: 60px;
+}
